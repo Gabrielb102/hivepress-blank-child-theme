@@ -14,4 +14,3 @@ The child theme includes:
 - style.css - Basic theme definition
 - functions.php - Handles script/style management and theme setup
 - page-blank.php - Provides the "Blank Canvas" template
- 
