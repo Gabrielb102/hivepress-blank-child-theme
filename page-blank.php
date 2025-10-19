@@ -9,7 +9,11 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class('app-blank'); ?>>
-<div id="trainerfly"></div><!-- your JS framework or static markup -->
+	<?php
+	while ( have_posts() ) : the_post();
+	    the_content();
+	endwhile;
+	?>
 <?php wp_footer(); ?>
 </body>
 </html>
